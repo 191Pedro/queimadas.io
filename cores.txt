@@ -1,0 +1,4 @@
+#FFD4A7 bege
+#FCCF2D amarelo
+#FC982D laranja 1
+#FC502D vermelho

@@ -1,0 +1,110 @@
+body
+{
+    background: linear-gradient(to top, #fff2b8, #ffdabb, #ffb6b6, #ffbcbc);
+    margin: 0;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar
+{
+    width: 0;
+    height: 0;
+}
+a
+{
+    text-decoration: none;
+}
+.cg
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle
+{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+.middle2
+{
+    display: flex;
+    position: absolute;
+    width: 400px;
+}
+@keyframes subirimagem
+{
+ 0%
+{
+margin-top: 0px    
+}
+ 
+  100%
+ {
+    margin-top: -80px
+ }
+}
+.middle2:hover
+{
+    animation: subirimagem 2s forwards 
+}
+.st0 
+{
+    fill: none;
+    stroke: #1e3e92;
+    stroke-miterlimit: 10;
+}
+.st1 
+{
+    fill: none;
+    stroke: #1e3e92;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+}
+.st0:hover,
+.st1:hover
+{
+    stroke: rgb(0, 183, 255);
+}
+@media screen and (max-width: 75rem)
+{
+    .middle
+    {
+        width: 350px;
+    }
+    .middle2
+    {
+        width: 350px;
+    }
+}
+@media screen and (max-width: 350px)
+{
+    body
+    {
+        width: 100vw;
+        height: 100vh;
+    }
+    .middle
+    {
+        width: 250px;
+    }
+    .middle2
+    {
+        width: 250px;
+    }
+}
